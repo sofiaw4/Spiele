@@ -25,6 +25,7 @@ public class TestVertex {
 		System.out.println(v2.equals(v3)) ;
 		System.out.println(v2.equals(v4)) ;
 		System.out.println(v4.equals(v2)) ;
+		System.out.println(v1.distance(v2)) ;
 		
 	}
 

@@ -70,8 +70,8 @@ public class Vertex {
 	}
 
 	public double distance(Vertex that) {
-		double xx = that.x - this.x;
-		double yy = that.y - this.y;
+		double xx = this.x - that.x;
+		double yy = this.y - that.y;
 
 		return Math.sqrt(xx * xx + yy * yy);
 	}
