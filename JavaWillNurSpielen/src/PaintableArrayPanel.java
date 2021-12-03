@@ -13,12 +13,5 @@ public class PaintableArrayPanel extends SizedPanel{
 		for(Paintable p:ps)
 			p.paintTo(g);
 	}
-	
-	public static void main(String[] args) {
-		Paintable pa[] = (new PaintableOval(100, 50, 10, 50), new PaintableOval(100, 50, 130, 150));
-		
-		ShowInFrame.show("OvaleArray", new PaintableArrayPanel(pa));
-		
-	}
 
 }

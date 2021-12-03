@@ -25,7 +25,7 @@ public class Vertex {
 
 	}
 
-	public void SkalarMultMod(double s) {
+	public void skalarMultMod(double s) {
 		x = x * s;
 		y = y * s;
 	}
