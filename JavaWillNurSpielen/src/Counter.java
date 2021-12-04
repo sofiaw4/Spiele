@@ -1,9 +1,6 @@
 import javax.swing.*;
-
 import util.ShowInFrame;
-
 import java.awt.event.*;
-import java.util.Random;
 
 public class Counter extends SimpleButton {
 	int i = this.i;
@@ -28,7 +25,7 @@ public class Counter extends SimpleButton {
 
 		b3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				i ++;
+				i = 0;
 				l.setText("" + i);
 			}
 
