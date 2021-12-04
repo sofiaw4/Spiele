@@ -28,7 +28,7 @@ public class Counter extends SimpleButton {
 
 		b3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				i = 0;
+				i ++;
 				l.setText("" + i);
 			}
 
