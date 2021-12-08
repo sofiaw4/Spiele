@@ -5,7 +5,7 @@ import util.ShowInFrame;
 import java.awt.Dimension;
 
 public class SizedPanel extends JPanel {
-	int preferredWidth = 900;
+	int preferredWidth = 1300;
 	int preferredHeight = 900;
 	
 	public SizedPanel(int w, int h) {
