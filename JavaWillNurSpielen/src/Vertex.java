@@ -14,7 +14,7 @@ public class Vertex {
 		return "(" + x + ", " + y + ")";
 	}
 
-	public double lenght() {
+	public double length() {
 
 		return Math.sqrt(x * x + y * y);
 	}
@@ -77,7 +77,7 @@ public class Vertex {
 	}
 
 	public void normalize() {
-		double factor = this.lenght();
+		double factor = this.length();
 
 		this.x = x / factor;
 		this.y = y / factor;
