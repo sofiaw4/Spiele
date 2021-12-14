@@ -1,5 +1,5 @@
 
-public interface GameObject extends Movable, Paintable{
+interface GameObject extends Movable, Paintable{
 	double getWidth();
 	double getHeight();
 	Vertex getPos();
